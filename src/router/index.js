@@ -9,10 +9,22 @@ const routes = [
       {
         path: '',
         name: 'Home',
-        // route level code-splitting
-        // this generates a separate chunk (Home-[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
         component: () => import('@/views/Home.vue'),
+      },
+      {
+        path: '#apply',
+        name: 'Apply',
+        component: () => import('@/views/Apply.vue'),
+      },
+      {
+        path: '#contact',
+        name: 'Contact',
+        component: () => import('@/views/Contact.vue'),
+      },
+      {
+        path: '#login',
+        name: 'Login',
+        component: () => import('@/views/Login.vue'),
       },
     ],
   },

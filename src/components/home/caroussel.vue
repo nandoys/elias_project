@@ -22,10 +22,10 @@
             return {
                 slides: [
                 {
-                    src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+                    src: 'src/assets/bg-1.jpg',
                 },
                 {
-                    src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+                    src: 'src/assets/bg-2.jpg',
                 },
                 ],
             }
