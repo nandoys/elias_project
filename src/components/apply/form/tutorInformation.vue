@@ -16,36 +16,27 @@
             ></v-text-field>
         </v-row>
         <v-row>
-            <v-text-field
-                v-model="placeOfBirth"
-                :rules="rules"
-                label="Lieu de naissance"
-                class="mr-5"
-            ></v-text-field>
-            <v-menu>
-                <template v-slot:activator="{ props }">
-                    <v-text-field
-                        v-model="selectedDate"
-                        :rules="rules"
-                        label="Date de naissance"
-                        readonly
-                        v-bind="props"
-                    ></v-text-field>
-                </template>
-                <v-locale-provider locale="fr">
-                    <v-date-picker 
-                        elevation="24"
-                        :model-value="selectedDate"
-                    >
-                    </v-date-picker>
-                </v-locale-provider>
-            </v-menu>
-        </v-row>
-        <v-row>
             <v-radio-group inline label="Genre">
                 <v-radio label="Masculin" value="M"></v-radio>
                 <v-radio label="Féminin" value="F"></v-radio>
             </v-radio-group>
+        </v-row>
+        <v-row>
+            <v-radio-group inline label="Degré de parenté">
+                <v-radio label="Parent" value="P"></v-radio>
+                <v-radio label="Frère / Soeur" value="F/S"></v-radio>
+                <v-radio label="Oncle / Tante" value="O/T"></v-radio>
+            </v-radio-group>
+        </v-row>
+        <v-row>
+            <v-sheet width="400">
+                <v-text-field
+                    v-model="profession"
+                    :rules="rules"
+                    label="Profession"
+                    class="mr-5"
+                ></v-text-field>
+            </v-sheet>
         </v-row>
         <v-row class="mb-3 text-subtitle-2">Adresse</v-row>
         <v-row>
@@ -90,6 +81,7 @@ export default {
             placeOfBirth: '',
             avenue: '',
             province: '',
+            profession: '',
             telephone: '',
             email: '',
             selectedDate: useDate().format({date: new Date('March 1, 2021'), formatString: 'dmY'}),
