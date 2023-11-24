@@ -37,6 +37,21 @@ const routes = [
         name: 'Dashboard',
         component: () => import('@/views/parent_app/Dashboard.vue'),
       },
+      {
+        path: 'subscribers',
+        name: 'Subscriber',
+        component: () => import('@/views/parent_app/Subscriber.vue'),
+      },
+      {
+        path: 'tuition',
+        name: 'Tuition',
+        component: () => import('@/views/parent_app/Tuition.vue'),
+      },
+      {
+        path: 'chat',
+        name: 'Chat',
+        component: () => import('@/views/parent_app/Chat.vue'),
+      },
     ]
   }
 ]

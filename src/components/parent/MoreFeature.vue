@@ -10,10 +10,10 @@
                     nav
                     width="600"
                     :items="items"
+                    @click:select="goTo"
                 >
-                    <template v-slot:prepend>
-                     
-                        <v-icon icon="mdi-pencil"></v-icon>
+                    <template v-slot:prepend="{item}">
+                        <v-icon :icon="item.icon"></v-icon>
                     </template>
                 </v-list>
             </div>
@@ -28,20 +28,30 @@ export default {
         items: [
             {
                 title: 'Vos inscriptions',
-                icon: 'mdi-pencil',
-                value: 1,
+                icon: 'mdi-book-edit',
+                value: 'Subscriber',
             },
             {
                 title: 'Frais scolaire',
-                icon: 'mdi-pencil',
-                value: 2,
+                icon: 'mdi-currency-usd',
+                value: 'Tuition',
             },
             {
                 title: 'Discussions',
-                icon: 'mdi-pencil',
-                value: 3,
+                icon: 'mdi-chat',
+                value: 'Chat',
+            },
+            {
+                title: 'Se déconnecter',
+                icon: 'mdi-exit-to-app',
+                value: 'Login',
             }
         ]
-    })
+    }),
+    methods: {
+        goTo(arg) {
+            this.$router.push({'name': arg.id})
+        }
+    }
 }
 </script>
