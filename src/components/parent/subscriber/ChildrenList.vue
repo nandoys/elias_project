@@ -1,11 +1,11 @@
 <template>
-    <v-card flat>
+    <v-card flat max-width="1000">
       <v-card-title class="d-flex justify-center pe-2"> 
         <v-text-field
           v-model="search"
           prepend-inner-icon="mdi-magnify"
           density="compact"
-          label="Search"
+          label="Recherche"
           single-line
           flat
           hide-details

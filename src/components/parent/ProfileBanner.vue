@@ -7,9 +7,9 @@
         >
             <v-row>
                 <v-col>
-                    <v-card-text class="text-h3 text-center">Elias XYZ</v-card-text>
-                    <span class="text-center d-flex flex-column">elias@gmail.com</span>
-                    <span class="text-center d-flex flex-column">+243851234565</span>
+                    <v-card-text class="text-h3 text-center">Dieudonné Kiamfu</v-card-text>
+                    <span class="text-center d-flex flex-column">d.kiamfu@gmail.com</span>
+                    <span class="text-center d-flex flex-column">+243814223458</span>
                     <v-row>
                         <v-btn
                         prepend-icon="mdi-account-edit-outline"                            
