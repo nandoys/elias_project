@@ -3,14 +3,23 @@
         <v-col cols="12">
             <v-row>
                 <v-col cols="4">
+                    <div class="d-flex justify-center">
+                        <v-img src="@/assets/location.png" height="60" width="60" />
+                    </div>
                     <div class="text-h6 text-center">Adresse</div>
                     <v-card-text class="text-center">+24381-----</v-card-text>
                 </v-col>
                 <v-col cols="4">
+                    <div class="d-flex justify-center">
+                        <v-img src="@/assets/telephone.png" height="60" width="60" />
+                    </div>
                     <div class="text-h6 text-center">Téléphone</div>
                     <v-card-text class="text-center">+24381-----</v-card-text>
                 </v-col>
                 <v-col cols="4">
+                    <div class="d-flex justify-center">
+                        <v-img src="@/assets/email.png" height="60" width="60" />
+                    </div>
                     <div class="text-h6 text-center">Email</div>
                     <v-card-text class="text-center">itigombe@gmail.com</v-card-text>
                 </v-col>

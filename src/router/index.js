@@ -28,6 +28,17 @@ const routes = [
       },
     ],
   },
+  {
+    path: '/parent',
+    component: () => import('@/layouts/default/Parent.vue'),
+    children: [
+      {
+        path: '',
+        name: 'Dashboard',
+        component: () => import('@/views/parent_app/Dashboard.vue'),
+      },
+    ]
+  }
 ]
 
 const router = createRouter({

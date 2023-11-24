@@ -18,7 +18,9 @@
                     type="password"
                 >
                 </v-text-field>
-                <v-btn class="mx-auto">Se connecter</v-btn>
+                <div class="d-flex justify-center">
+                    <v-btn @click="goTo('Dashboard')">Se connecter</v-btn>
+                </div>
             </v-col>
         </v-row>
     </v-card>
@@ -30,6 +32,12 @@ export default {
     data: () => ({
         email: '',
         password: ''
-    })
+    }),
+
+    methods: {
+        goTo(pathName) {
+            this.$router.push({'name': pathName})
+        }
+    }
 }
 </script>
