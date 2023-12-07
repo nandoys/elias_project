@@ -10,13 +10,8 @@
         <v-col cols="6">
             <span class="text-h3">Section d'électricité</span>
             <section>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nihil maiores quis neque quae magnam adipisci expedita,
-                nulla distinctio voluptatum omnis, numquam laudantium fuga blanditiis dolor laborum quos eligendi ratione?
-
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nihil maiores quis neque quae magnam adipisci expedita,
-                nulla distinctio voluptatum omnis, numquam laudantium fuga blanditiis dolor laborum quos eligendi ratione?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nihil maiores quis neque quae magnam adipisci expedita,
-                nulla distinctio voluptatum omnis, numquam laudantium fuga blanditiis dolor laborum quos eligendi ratione?
+                C'est quoi industrie électrique ?Ensemble des activités liées à la conception, 
+                la fabrication et l'entretien de produits et composants électriques et électroniques.
             </section>
         </v-col>
 

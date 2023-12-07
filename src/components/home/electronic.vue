@@ -3,13 +3,8 @@
         <v-col cols="6">
             <span class="text-h3">Section d'électronique</span>
             <section>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nihil maiores quis neque quae magnam adipisci expedita,
-                nulla distinctio voluptatum omnis, numquam laudantium fuga blanditiis dolor laborum quos eligendi ratione?
-
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nihil maiores quis neque quae magnam adipisci expedita,
-                nulla distinctio voluptatum omnis, numquam laudantium fuga blanditiis dolor laborum quos eligendi ratione?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nihil maiores quis neque quae magnam adipisci expedita,
-                nulla distinctio voluptatum omnis, numquam laudantium fuga blanditiis dolor laborum quos eligendi ratione?
+                L'électronique industrielle est une branche de l'ingénierie électronique qui se concentre sur les systèmes 
+                électroniques de qualité industrielle, c'est-à-dire les équipements électroniques utilisés dans l'industrie.
             </section>
         </v-col>
         <v-col cols="6">

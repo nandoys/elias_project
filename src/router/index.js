@@ -52,6 +52,11 @@ const routes = [
         name: 'Chat',
         component: () => import('@/views/parent_app/Chat.vue'),
       },
+      {
+        path: 'child',
+        name: 'Child',
+        component: () => import('@/views/parent_app/Child.vue'),
+      },
     ]
   }
 ]

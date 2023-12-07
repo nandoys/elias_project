@@ -30,12 +30,13 @@
                                     :title="item.title"
                                     subtitle="Classe de 4ème Mécanique"
                                     link
+                                    @click="goTo('Child')"
                                 >
                                 <template v-slot:prepend>
                                     <v-avatar
                                     color="grey-lighten-1"
                                     size="50"
-                                    image="https://cdn.vuetifyjs.com/images/profiles/marcus.jpg"
+                                    image="@/assets/marcus.jpg"
                                     ></v-avatar>
                                 </template>
 
@@ -44,9 +45,7 @@
                         </v-carousel-item>
                     </v-carousel>
                 </v-card>
-            </div>
-
-            
+            </div>            
         </v-col>
     </v-row>
 </template>
@@ -61,6 +60,11 @@ export default {
             {title: 'Elias 4'},
             {title: 'Elias 5'},
         ]
-    })
+    }),
+    methods: {
+        goTo(pathName) {
+            this.$router.push({'name': pathName})
+        }
+    }
 }
 </script>

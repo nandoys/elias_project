@@ -19,10 +19,10 @@
           <div class="text-start">Nom de l'élève</div>
         </template>
         <template v-slot:header.subscribeAt>
-          <div class="text-start">Inscrit depuis</div>
+          <div class="text-start">Prochain contrôle</div>
         </template>
         <template v-slot:header.validity>
-          <div class="text-end">Validité</div>
+          <div class="text-end">Etat à la caisse</div>
         </template>
   
         <template v-slot:item.image="{ item }">
@@ -41,7 +41,7 @@
           <div class="text-end">
             <v-chip
               :color="item.validity ? 'green' : 'red'"
-              :text="item.validity ? 'Valide' : 'Invalide'"
+              :text="item.validity ? 'En ordre' : 'En retard'"
               class="text-uppercase"
               label
               size="small"
