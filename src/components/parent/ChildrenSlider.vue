@@ -32,14 +32,13 @@
                                     link
                                     @click="goTo('Child')"
                                 >
-                                <template v-slot:prepend>
-                                    <v-avatar
-                                    color="grey-lighten-1"
-                                    size="50"
-                                    image="@/assets/marcus.jpg"
-                                    ></v-avatar>
-                                </template>
-
+                                    <template v-slot:prepend>
+                                        <v-avatar
+                                        color="grey-lighten-1"
+                                        size="50"
+                                        image="@/assets/marcus.jpg"
+                                        ></v-avatar>
+                                    </template>
                                 </v-list-item>
                             </v-sheet>
                         </v-carousel-item>
